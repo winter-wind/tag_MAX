@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+  <!-- 标签描述 -->
+  <description>myMax 1.1 core library</description>
+  <display-name>myMax core</display-name>
+  <tlib-version>1.0</tlib-version>
+  
+  <!-- jsp页面上用到的标签名和类 -->
+  <short-name>myMax</short-name>
+  <uri>http://www.biibi.cc/myMax/core</uri>
+  
+  <!-- 描述自定义标签的类:TagMax.java -->
+  <tag>
+  <name>ismax</name>
+  <tag-class>cc.biibi.tagmax.TagMax</tag-class>
+  <body-content>empty</body-content>
+  
+  <!-- 标签属性1 -->
+  <attribute>
+  <name>max1</name>
+  <required>true</required>
+  <rtexprvalue>true</rtexprvalue>
+  </attribute>
+  
+  <!-- 标签属性1 -->
+  <attribute>
+  <name>max2</name>
+  <required>true</required>
+  <rtexprvalue>true</rtexprvalue>
+  </attribute>
+  </tag>
+  
+
+  
+</taglib>
